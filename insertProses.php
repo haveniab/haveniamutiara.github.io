@@ -3,11 +3,11 @@
 
     $id = $_GET['id'];
     $jenis_paket = $_GET['jenis_paket'];
-    $harga = $_GET['price'];
+    $harga = $_GET['harga'];
     $keterangan = $_GET['keterangan'];
 
     $sql = "INSERT INTO paketwisata (id,jenis_paket,harga,keterangan)
-            VALUES ('$id','$jenis_paket','$harga','$keterangan')";
+            VALUES('$id','$jenis_paket','$harga','$keterangan')";
 
     if (mysqli_query($connect, $sql)){
         ?>
