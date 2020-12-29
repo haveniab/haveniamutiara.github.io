@@ -72,35 +72,36 @@ footer .brand h1{
 .green{
     background-color:#6fb936;
   }
-          .thumb{
-              margin-bottom: 30px;
-          }
+
+.thumb{
+    margin-bottom: 30px;
+}
           
-          .page-top{
-              margin-top:30px;
-          }
+.page-top{
+        margin-top:30px;
+    }
 
 .modal-header {
-     
-       border-bottom: none;
-  }
+        
+        border-bottom: none;
+    }
 
-  .modal-title {
-          color:#000;
+.modal-title {
+        color:#000;
       }
 
-      .modal-footer{
+.modal-footer{
         display:none;  
     }
 
-    .button {
+.button {
         float:right;
         font-size: 16px;
         background-color: lightgray;
         margin:10px;
         width: 80px;
     }
-    .price {
+.price {
         display: flex;
         justify-content: left;
         align-items: left;
@@ -108,45 +109,45 @@ footer .brand h1{
         margin-left: 40px;
     }
 
-    #name, #hp, #address, #email, #wisata, #kendaraan {
+#name, #hp, #address, #email, #wisata, #kendaraan {
         border: 1px solid #5A9AD4;
         width: 10cm;
         height: 30px;
     }
-    #name, #hp {
+#name, #hp {
         margin-left: 100px;
     }
 
-    #address {
+#address {
         margin-left: 95px;
     }
 
-    #email {
+#email {
         margin-left: 165px;
     }
 
-    #wisata {
+#wisata {
         margin-left: 80px;
     }
-    #kendaraan {
+#kendaraan {
         margin-left: 60px;
     }
 
-    #count {
+#count {
         margin-top: 20px;
         justify-content: left;
         text-align: left;
         margin-left: 20px;
     }
 
-    .p1, .p2, .p3, .p4, .p5, .p6, .p7 {
+.p1, .p2, .p3, .p4, .p5, .p6, .p7 {
         letter-spacing: 2px;
     }
 
-    #judul {
+#judul {
         text-align: center;
     }
-    .container-satu {
+.container-satu {
     background-color: #fff;
     padding: 20px;
     box-sizing: border-box;
@@ -184,7 +185,15 @@ footer .brand h1{
 }
 
 
-    .tambahData {
+.tambahData {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.editData {
     display: flex;
     justify-content: left;
     align-items: left;
@@ -193,8 +202,8 @@ footer .brand h1{
 }
 #id, #jenispaket, #harga, #keterangan, #jenismobil {
     border: 1px solid #5A9AD4;
-        width: 5cm;
-        height: 30px;
+    width: 5cm;
+    height: 30px;
 }
 
 #id {

@@ -3,7 +3,7 @@
 
     $id = $_GET['id'];
     $jenis_paket = $_GET['jenis_paket'];
-    $harga = $_GET['price'];
+    $harga = $_GET['harga'];
     $keterangan = $_GET['keterangan'];
 
     $query="UPDATE paketwisata SET jenis_paket='$jenis_paket', harga='$harga',keterangan='$keterangan'

@@ -2,7 +2,7 @@
     include "koneksi.php";
 
     $id = $_GET['id'];
-    $jenis_bus = $_GET['jenis_bus'];
+    $jenis_bus = $_GET['Jenis_Bus'];
     $harga = $_GET['harga'];
     $keterangan = $_GET['keterangan'];
 
